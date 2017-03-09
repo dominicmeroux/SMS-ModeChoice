@@ -3,14 +3,13 @@ This lays out the framework for a Python Flask web app using Twilio to allow a u
 
 Currently, there are two types of requests users can make: 
 
-1) Best mode option
+1) **Best transportation mode option given user origin and destination**
 
 Text "Best option from ORIGIN RECOGNIZEABLE BY GOOGLE MAPS to DESTINATION"
 
-2) Best bikeshare stations
+2) **Optimal bikeshare start and end stations given user origin and destination**
 
-Text "Bikeshare from ORIGIN to DESTINATION" e.g. "Bikeshare from House of Prime Rib, SF to Powell St BART"
-The optimal start and end bikeshare stations with at least two available bicycles are identified. 
+Text "Bikeshare from ORIGIN to DESTINATION" e.g. "Bikeshare from House of Prime Rib, SF to Powell St BART". The optimal start and end bikeshare stations with at least two available bicycles are identified. 
 
 If you want full Google Maps directions sent by text in addition, add "with directions" to the end of the text message.
 
